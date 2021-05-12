@@ -1,0 +1,68 @@
+
+// @media only screen  and (min-width: 1200px)
+//  good work
+
+// @media only screen  and (min-width: 992px) and ( max-width:  1024px)
+@mixin safety_992_1024
+  .container-fuild:nth-child(8)
+    .black_car_img
+      background-size: contain
+    .text_note
+      padding-top: 10%
+
+// @media only screen  and (min-width: 768px) and ( max-width:  991px)
+@mixin safety_768_991
+  .container-fuild:nth-child(8)
+    .black_car_img
+      height: 260px
+      background-size: contain
+    .text_note
+      padding-top: 10%
+      h2
+        font-size: 1em
+        padding-top: 0%
+// @media only screen  and (min-width: 576px) and ( max-width:  767px)
+@mixin safety_576_767
+  .container-fuild:nth-child(8)
+    .black_car
+      display: flex
+      justify-content: center
+    .black_car_img
+      height: 260px
+      flex: 1 0 0
+      background-size: contain
+    .text_note
+      padding-top: 0%
+      h2
+        font-size: 1em
+        padding-top: 0%
+// @media only screen  and (min-width: 480px) and ( max-width:  575px)
+@mixin safety_480_575
+  .container-fuild:nth-child(8)
+    .black_car
+      display: flex
+      justify-content: center
+    .black_car_img
+      height: 260px
+      flex: 1 0 0
+      background-size: contain
+    .text_note
+      padding-top: 0%
+      h2
+        font-size: 1em
+        padding-top: 0%
+// @media only screen  and (min-width: 320px) and ( max-width:  479px)
+@mixin safety_320_479
+  .container-fuild:nth-child(8)
+    .black_car
+      display: flex
+      justify-content: center
+    .black_car_img
+      height: 200px
+      flex: 1 0 0
+      background-size: contain
+    .text_note
+      padding-top: 0%
+      h2
+        font-size: 1em
+        padding-top: 0%

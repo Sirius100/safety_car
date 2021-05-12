@@ -1,0 +1,81 @@
+.container-fuild:nth-child(7)
+  background: $big-color7
+  padding: 1em
+  color: $text-color5
+  section
+    text-align: center
+  .row
+    flex-direction: column
+    align-items: center
+  .title_section
+    text-align: center
+  h1
+    font-size: 3em
+    font-weight: 700
+    width: 45%
+    margin-left: auto
+    margin-right: auto
+  p
+    font-size: .8em
+  .list_menu
+    width: 100%
+    text-align: center
+  ul
+    width: 70%
+    list-style: none
+    text-align: left
+    margin-left: auto
+    margin-right: auto
+  li
+    position: relative
+    padding-top: 1em
+    padding-bottom: 1em
+    padding-left: 2em
+    border-bottom: .05px solid $text-color5
+    font-family: Roboto, Arial, sans-serif
+    font-weight: 700
+    font-size: 1em
+  li:hover
+    background: $svg-color1
+    &:after
+      border-right: 12px solid $svg-color1
+      border-left: 12px solid $svg-color1
+      border-bottom: 12px solid $svg-color1
+  li:after
+    position: absolute
+    top: 50%
+    right: 2em
+    content: " "
+    width: 24px
+    height: 24px
+    background: $big-color2
+    border-right: 12px solid black
+    border-left: 12px solid black
+    border-bottom: 12px solid black
+    border-top: 12px solid white
+    &:hover
+      border-right: 12px solid $svg-color1
+      border-left: 12px solid $svg-color1
+      border-bottom: 12px solid $svg-color1
+  .text
+    font-family: 'Open Sans', Arial, sans-serif
+    font-weight: normal
+    font-size: 0.8em
+    text-align: center
+    margin-left: auto
+    margin-right: auto
+    margin-top: 2.5em
+    width: 85%
+    display: none
+    opacity: 0
+  .list_menu__text-visible
+    display: block
+    margin-bottom: 25px
+    transition: all 1s linear
+    opacity: 1
+  .li_on_change
+    background: $svg-color1
+    &:after
+      border-right: 12px solid $svg-color1
+      border-left: 12px solid $svg-color1
+      border-bottom: 12px solid $svg-color1

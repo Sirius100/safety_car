@@ -1,0 +1,62 @@
+// @media only screen  and (min-width: 1200px)
+// good work!!!
+
+// @media only screen  and (min-width: 992px) and ( max-width:  1024px)
+// good work!!!
+
+// @media only screen  and (min-width: 768px) and ( max-width:  991px)
+@mixin header_768_991
+  .container-fuild:nth-child(1)
+    margin-top: -10em
+    padding-bottom: 4em
+    h1
+      font-size: 2em
+      font-weight: bold
+      margin: 0 100px
+      margin-top: 450px
+
+
+// @media only screen  and (min-width: 576px) and ( max-width:  767px)
+@mixin header_576_767
+  .container-fuild:nth-child(1)
+    background-size: 200% 100%
+    padding-bottom: 4em
+    .container
+      padding: 0 0
+    h1
+      font-size: 2em
+      font-weight: bold
+      margin: 0 100px
+      margin-top: 70px
+    p
+      margin: 50px 20px
+
+// @media only screen  and (min-width: 480px) and ( max-width:  575px)
+@mixin header_480_575
+  .container-fuild:nth-child(1)
+    background-position: 47% 50%
+    background-size: cover
+    margin-top: 0em
+    padding-bottom: 4em
+    h1
+      font-size: 2em
+      font-weight: bold
+      margin: 0 50px
+      margin-top: 70px
+    p
+      margin: 50px 20px
+
+// @media only screen  and (min-width: 320px) and ( max-width:  479px)
+@mixin header_320_479
+  .container-fuild:nth-child(1)
+    background-position: 47% 50%
+    margin-top: 0em
+    padding-bottom: 4em
+    h1
+      font-size: 1em
+      font-weight: bold
+      margin: 0 10px
+      margin-top: 70px
+    p
+      margin: 50px 10px
+      color: $svg-color1

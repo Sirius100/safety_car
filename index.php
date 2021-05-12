@@ -2,8 +2,8 @@
 <html lang="ru-RU">
   <head>
     <link rel="stylesheet" href="src/css/style.css">
-    <!--link(rel='preconnect' href='https://fonts.gstatic.com')-->
-    <!--link(href='https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap' rel='stylesheet')-->
+    <link rel="preconnect" href="https://use.fontawesome.com">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
     <meta charset="utf-8">
     <meta name="description" content="">
     <meta name="title" content="Обзор новых возможностей">
@@ -43,7 +43,7 @@
     <!-- 2  - strahovanie-->
     <div class="container-fuild">
       <section>
-        <div class="container">
+        <div class="container-md">
           <div class="row">
             <h2>Страхование и инвестирование для многих сторон</h2>
             <h5>Мы защищаем людей, бизнес и будущее более 90 лет.</h5>
@@ -108,7 +108,7 @@
     <!-- 3  - findstrahovoy-->
     <div class="container-fuild">
       <section>
-        <div class="container">
+        <div class="container-md">
           <div class="row">
             <div class="col-12 col-sm-6">
               <h2>Поиск лучшей страховой компании для вас</h2>
@@ -155,7 +155,7 @@
     <!-- 6  - beststrahovih_2-->
     <div class="container-fuild">
       <section>
-        <div class="container">
+        <div class="container-md">
           <div class="row">
             <div class="col-12 col-sm-6">
               <div class="wrapper_info">
@@ -175,15 +175,91 @@
       </section>
     </div>
     <!-- 7  - quest-->
-    <div class="container-fuild"></div>
+    <div class="container-fuild">
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="title_section">
+              <h1>Часто задаваемые вопросы</h1>
+              <p>Sample text. Click to select the text box. Click again or  ouble click to start editing the text.</p>
+            </div>
+            <div class="list_menu">
+              <ul>
+                <li>What's included in the quoted daily rate?</li>
+                <div class="text">Answer. Lorem ipsum dolor sit amet, consectetur adipiscing elit.   Curabitur id suscipit ex. Suspendisse rhoncus laoreet purus quis elementum. Phasellus sed efficitur dolor, et ultricies sapien. Quisque  fringilla sit amet dolor commodo efficitur. Aliquam et sem odio. In  ullamcorper nisi nunc, et molestie ipsum iaculis sit amet.</div>
+                <li>What is the rental's mileage plan?</li>
+                <div class="text">Answer. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur  id suscipit ex. Suspendisse rhoncus laoreet purus quis elementum.  Phasellus sed efficitur dolor, et ultricies sapien. Quisque fringilla sit  amet dolor commodo efficitur. Aliquam et sem odio. In ullamcorper nisi   nunc, et molestie ipsum iaculis sit amet.</div>
+                <li>What are your extra insurance options?</li>
+                <div class="text">Answer. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur  id suscipit ex. Suspendisse rhoncus laoreet purus quis elementum.   Phasellus sed efficitur dolor, et ultricies sapien. Quisque fringilla sit  amet dolor commodo efficitur. Aliquam et sem odio. In ullamcorper nisi  nunc, et molestie ipsum iaculis sit amet.</div>
+                <li>Do I need to return the rental with a full tank?</li>
+                <div class="text">Answer. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur  id suscipit ex. Suspendisse rhoncus laoreet purus quis elementum.   Phasellus sed efficitur dolor, et ultricies sapien. Quisque fringilla sit  amet dolor commodo efficitur. Aliquam et sem odio. In ullamcorper nisi  nunc, et molestie ipsum iaculis sit amet.</div>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
     <!-- 8  - safety-->
-    <div class="container-fuild"></div>
+    <div class="container-fuild">
+      <section>
+        <div class="container-md">
+          <div class="row">
+            <div class="col-12 col-sm-12 col-md-8">
+              <div class="black_car">
+                <div class="black_car_img"></div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-4">
+              <div class="text_note">
+                <h2>Безопасно.<br>Расслабляющий.<br>Хорошо ездить.<br>Тонко оформлен.</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
     <!-- 9  - tocontact-->
-    <div class="container-fuild"></div>
+    <div class="container-fuild">
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-sm-6">
+              <div class="wrapper_info">
+                <h6>Готовы поговорить?</h6>
+                <h3>Связаться с нами</h3>
+                <p>Massa tempor nec feugiat nisl pretium fusce id velit. Accumsan tortor posuere ac ut. Aenean pharetra magna ac placerat vestibulum lectus. Praesent semper feugiat nibh sed pulvinar. Lorem sed risus ultricies tristique.</p>
+                <p>Dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Amet dictum sit amet justo donec enim diam vulputate. Ut morbi tincidunt augue interdum velit euismod in pellentesque. Volutpat lacus laoreet non curabitur.</p>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6">
+              <div class="wrapper_form">
+                <input type="text" name="nameuser" placeholder="Enter your Name">
+                <input type="email" name="emailuser" placeholder="Enter a valid email address">
+                <textarea placeholder="Enter Your message"></textarea>
+                <input class="rounded-pill" type="submit" name="btnform" value="Представить на рассмотрение">
+              </div>
+              <ul class="social">
+                <li class="social_item"><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li class="social_item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li class="social_item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
     <!-- 10 -  footer-->
-    <div class="container-fuild"></div>
-    <script type="module" src="src/js/script.js"></script>
-    <script src="src/js/scriptselem.js"></script>
+    <div class="container-fuild">
+      <div class="container">
+        <div class="row justify-content-center text-center">
+          <p>Created with help LEADING &nbsp;</p>
+          <p><a href="malito:Good.web@yahoo.com">Задавайте вопросы по электронной почте. &nbsp;</a></p>
+          <p>Good.web@yahoo.com</p>
+        </div>
+      </div>
+    </div>
+    <script type="module" defer src="src/js/script.js"></script>
+    <script src="src/js/dinamPosition.js"></script>
     <script src="gulp/node_modules/jquery/dist/jquery.min.js"></script>
     <script src="gulp/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="gulp/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
