@@ -33,7 +33,6 @@ function userAgent(){
   all_userAgent.map( function(x) {
     if (ua.search(x) >= 0){
       console.log("Подключен файл стилей " + style_css[x]);
-      console.log("модуль Useragent закончил работу");
       link.href = style_css[x];
       head.appendChild(link);
     }

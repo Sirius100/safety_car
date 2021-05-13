@@ -6,9 +6,7 @@ li = list_menu[0].getElementsByTagName('li');
 
 
 function question_visible(){
-  console.log("модуль question_visible закончил свою работу");
   for (let i=0; i<=li.length; i++){
-    console.log(li[i]);
     li[i].addEventListener( "click", function() {
       if (this.nextElementSibling.classList == 'text list_menu__text-visible'){
         this.nextElementSibling.classList.remove("list_menu__text-visible");
