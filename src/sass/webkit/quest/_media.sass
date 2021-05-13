@@ -1,0 +1,61 @@
+// @media only screen  and (min-width: 1200px)
+//  good work
+
+// @media only screen  and (min-width: 992px) and ( max-width:  1024px)
+//  good work
+
+// @media only screen  and (min-width: 768px) and ( max-width:  991px)
+@mixin quest_768_991
+  .container-fuild:nth-child(7)
+    ul
+      width: 100%
+
+// @media only screen  and (min-width: 576px) and ( max-width:  767px)
+@mixin quest_576_767
+  .container-fuild:nth-child(7)
+    ul
+      width: 100%
+      padding-left: 1em
+
+// @media only screen  and (min-width: 480px) and ( max-width:  575px)
+@mixin quest_480_575
+  .container-fuild:nth-child(7)
+    h1
+      font-size: 2em
+      font-weight: 700
+      width: 45%
+
+    ul
+      width: 100%
+      padding-left: 1em
+      li
+        padding-left: 0
+      li:after
+        top: 100%
+        left: calc(50% - 12px)
+      li:hover
+        &:after
+          border-right: 12px solid $big-color7
+          border-left: 12px solid $big-color7
+          border-bottom: 12px solid $big-color7
+// @media only screen  and (min-width: 320px) and ( max-width:  479px)
+@mixin quest_320_479
+  .container-fuild:nth-child(7)
+    h1
+      font-size: 1em
+      font-weight: 700
+      width: 45%
+
+    ul
+      width: 100%
+      padding-left: 1em
+      li
+        padding-left: 0
+      li:after
+        top: 100%
+        left: calc(50% - 12px)
+      li:hover
+        &:after
+          border-right: 12px solid $big-color7
+          border-left: 12px solid $big-color7
+          border-bottom: 12px solid $big-color7
