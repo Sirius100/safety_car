@@ -43,7 +43,7 @@
     <!-- 2  - strahovanie-->
     <div class="container-fuild">
       <section>
-        <div class="container-md">
+        <div class="container-lg">
           <div class="row">
             <h2>Страхование и инвестирование для многих сторон</h2>
             <h5>Мы защищаем людей, бизнес и будущее более 90 лет.</h5>
@@ -108,7 +108,7 @@
     <!-- 3  - findstrahovoy-->
     <div class="container-fuild">
       <section>
-        <div class="container-md">
+        <div class="container-lg">
           <div class="row">
             <div class="col-12 col-sm-6">
               <h2>Поиск лучшей страховой компании для вас</h2>
@@ -132,7 +132,7 @@
     </div>
     <!-- 4  - imgcar-->
     <div class="container-fuild">
-      <div class="container">
+      <div class="container-lg">
         <div class="row">
           <div class="wrapper_car"><img src="src/img/cars1.jpeg"></div>
           <div class="wrapper_car"><img src="src/img/cars2.jpeg"></div>
@@ -143,7 +143,7 @@
     <!-- 5  - beststrahovih_1-->
     <div class="container-fuild">
       <section>
-        <div class="container">
+        <div class="container-lg">
           <div class="row">
             <h2> Лучшие &nbsp;<span>Страховые &nbsp;</span><br></h2>
             <h2>компании на 2021 год</h2>
@@ -155,7 +155,7 @@
     <!-- 6  - beststrahovih_2-->
     <div class="container-fuild">
       <section>
-        <div class="container-md">
+        <div class="container-lg">
           <div class="row">
             <div class="col-12 col-sm-6">
               <div class="wrapper_info">
@@ -177,7 +177,7 @@
     <!-- 7  - quest-->
     <div class="container-fuild">
       <section>
-        <div class="container">
+        <div class="container-lg">
           <div class="row">
             <div class="title_section">
               <h1>Часто задаваемые вопросы</h1>
@@ -202,7 +202,7 @@
     <!-- 8  - safety-->
     <div class="container-fuild">
       <section>
-        <div class="container-md">
+        <div class="container-lg">
           <div class="row">
             <div class="col-12 col-sm-12 col-md-8">
               <div class="black_car">
@@ -221,7 +221,7 @@
     <!-- 9  - tocontact-->
     <div class="container-fuild">
       <section>
-        <div class="container">
+        <div class="container-lg">
           <div class="row">
             <div class="col-12 col-sm-6">
               <div class="wrapper_info">
